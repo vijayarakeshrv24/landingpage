@@ -1,10 +1,9 @@
 *{
     padding:0%;
     margin: 0%;
+    font-family: "Poppins", sans-serif;
 }
-body{
-    background-image: linear-gradient(80deg, #f8f4f1, #ecf1ff);
-}
+
 .logo{
     display: flex;
 }
@@ -16,7 +15,7 @@ body{
     padding-left: 10px;
 }
 .nav{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
     padding: 25px;
     justify-content: space-around;
@@ -124,8 +123,68 @@ body{
     border: none;
     font-size: 15px;
 }
-.main{
+.main2{
     display: flex;
     justify-content: center;
-    margin-top: 110px;
+    padding-top:110px;
+}
+.main{
+    background-image: linear-gradient(80deg, #f8f4f1, #ecf1ff);
+    height: 100vh;
+}
+.usep p{
+    font-weight: 400;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+.vedio{
+    height: 130vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.vedio1 iframe{
+    width: 900px;
+    height: 500px;
+}
+.useof{
+    background-color: #F7F9FF;
+    height: 100vh;
+}
+.usep1 p{
+    font-weight: 400;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+}
+.t1{
+    width: 260px;
+}
+.t1 #p1{
+    line-height: 40px;
+    font-weight: bold;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+    padding-right:20px ;
+}
+.maindiv{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.inf{
+    background-color: #F7F9FF;
+    background-image: url('light mode.png');
+    height: 100vh;
 }
