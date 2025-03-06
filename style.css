@@ -564,12 +564,10 @@
 }
 .bottom{
     display: flex;
-    justify-content:center;
-    align-items: center;
     margin-top: 200px;
     width: 1200px;
     margin-left: 140px;
-    border-top: #ffffff solid 2px;
+    border-top: #ffffff solid 1px;
     padding-top: 20px;
 }
 .mainsec_0{
@@ -594,4 +592,5 @@
     color: #ffffff;
     margin-left: 30px;
     font-size: 12px;
+    justify-content: start;
 }
