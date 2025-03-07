@@ -58,7 +58,7 @@ html {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-  border-color: #5978ff;
+  border: #5978ff 1.5px solid;
   color: #5978ff;
   border-radius: 10px;
 }
@@ -68,21 +68,7 @@ html {
   background-color: #5978ff;
   color: #ffffff;
   border-radius: 10px;
-  border-color: #5978ff;
-}
-#btn00:hover {
-  background-color: #5978ff;
-  color: #f7f9ff;
-}
-#btn1:hover {
-  background-color: #f7f9ff;
-  color: #5978ff;
-}
-#btn00:hover + #btn1 {
-  background-color: #f7f9ff;
-  color: #5978ff;
-  border-color: #5978ff solid 2.2px;
-  transition: 0.1s ease-in-out;
+  border: #5978ff 1.5px solid;
 }
 #change {
   color: #5978ff;
@@ -278,12 +264,6 @@ html {
   border: #5978ff solid 1px;
   font-size: 15px;
   margin-top: 5px;
-}
-#btn3:hover {
-  background-color: #f7f9ff;
-  color: #5978ff;
-  border-color: #5978ff solid 1px;
-  transition: transform 0.3s ease-in-out;
 }
 .tot1 {
   display: flex;
